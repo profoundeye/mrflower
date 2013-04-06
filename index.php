@@ -19,7 +19,7 @@
 			<img src="https://hbloom-prod.s3.amazonaws.com/prod/prdb/images/26184/1362844766196-Parrot%20Tulips.jpg" />
 			<p class="dec">
 				<span>本周</span>
-				厄瓜多尔玫瑰称为玫瑰中的劳斯莱斯。厄瓜多尔庄园凯扬波镇，坐落在安第斯山海拔三千多米的高处、位于科托帕克希火山地区。roseonly此次情人节的精选玫瑰（True Love）全部采用厄瓜多尔庄园玫瑰，顶级“雪球”白色玫瑰花型硕大雪白与全部的爱搭配
+				厄瓜多  尔玫瑰称为玫瑰中的劳斯莱斯。厄瓜多尔庄园凯扬波镇，坐落在安第斯山海拔三千多米的高处、位于科托帕克希火山地区。roseonly此次情人节的精选玫瑰（True Love）全部采用厄瓜多尔庄园玫瑰，顶级“雪球”白色玫瑰花型硕大雪白与全部的爱搭配
 			</p>
 			<a href="#" class="order">立刻订购<span>，每月四次，仅需233元</span></a>
 	</div>
