@@ -111,7 +111,7 @@ body{
 	position: absolute;
 	right:0;
 	}
-.dec p{
+.dec p{ 
 	   display:table-cell;
        vertical-align:middle;
        #position:absolute;
