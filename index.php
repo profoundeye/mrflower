@@ -36,15 +36,30 @@
 
 			</li>
 		</ul>
-		
 		<div class="buyInfoPos">
-			<p class="buyInfo">
-				·花瓶先生目前只服务于杭州地区。<br />
-				·每周会有不同的当季鲜花。<br />
-				·您现在订购，会在下周一收到由右侧花材组成的花束。<br />
-				<a href="#" class="order">立刻订购<span>，每月四次，仅需233元</span></a>
-			</p>
+					<ul id="collection">
+						<li class="select">点缀系列</li>
+						<li>钟爱系列</li>		
+					</ul>
 			
+			<div id="info">
+				<div id="mrFlower">
+				<b>{我是花瓶先生}</b>
+				<p>花瓶先生是我<br />
+花瓶不该是空虚的，生活不该是孤单的。<br />
+在我梦中，<br />每一只花瓶都有花香陪伴，都被赋予生命。<br />
+每周焕然一新的鲜花和心情<br />
+我是花瓶先生<br />
+				</p>				
+			</div>
+				<a href="#" class="order">立刻订购<span>，每月四次，仅需233元</span></a>
+				<p class="buyInfo">
+					·花瓶先生目前只服务于杭州地区。<br />
+					·每周会有不同的当季鲜花。<br />
+					·您现在订购，会在下周一收到由右侧花材组成的花束。<br />
+					
+				</p>				
+			</div>			
 		</div>
 			
 	</div>

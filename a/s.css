@@ -3,6 +3,8 @@
 	width:100%;
 	background-image:url("bg.jpg");
 	overflow:hidden;
+	min-width: 950px;
+	zoom:1;
 }
 .logo{
 	margin:26px auto;
@@ -31,12 +33,15 @@
 	background:#666;
 	color:#fff;
 }
+.mainFlower{
+	margin-bottom:50px;
+	overflow:hidden;
+	min-width:950px;
+	zoom:1;
+}
 .nowFlower{
-	width:550px;
-	position: relative;
-	top:70px;
-	left:200px;
-	margin-bottom:200px;
+	position: relative;	
+	background:#efeeee;
 	}
 
 .list{display:none}
@@ -52,15 +57,16 @@
 }
 .list li img{width:200px;}
 .order{
-	background-color: #2a2a2a;
-	padding:0 70px;
+	background-color: #cf2440;
+	padding:0 30px;
 	line-height:38px;
 	color:#fff;
 	font-size:14px;
 	display:block;
-	margin:0 auto;
-	width:210px;
+	margin:10px auto;
+	
 	text-align:center;
+	
 }
 .info{
 	width:500px;
@@ -82,10 +88,17 @@ left: -170px;
 	padding-left:50px;
 }
 body{
-	background:#F4F4F4;
+	background:#fafafa;
+}
+.itemList{
+	overflow:hidden;
+	width:70%;
+	float:left;
+	padding-top:50px;
+	background:#f4f4f4;
 }
 .itemList img{
-	float:right;
+	float:left;
 	height:200px;
 	width:200px;
 }
@@ -93,6 +106,7 @@ body{
 	overflow:hidden;
 	height:200px;
 	margin-bottom:20px;
+	padding-left:80px;
 }
 .dec{
 	display:table;
@@ -102,6 +116,33 @@ body{
 	line-height:150%;
 	height:200px;
 	#position:relative;
+	padding-left:50px;
+}
+#collection{
+	top:40%;
+	background:url(arrow.gif) no-repeat 0px 0px;
+	position: absolute;
+	margin-left:-190px;
+	display:block;
+	height:140px;
+	padding-top:50px;
+}
+#collection li{
+	width:70px;
+	height:35px;
+	line-height:35px;
+	font-size:15px;
+	padding-left:10px;
+	margin-left:80px
+}
+.select{
+	background:666;
+	color:#fff;
+}
+#info{
+	position: absolute;
+	top:30%;
+	padding-left:50px;
 }
 .mask{
 	background:url(mask.png) no-repeat;
@@ -109,7 +150,7 @@ body{
 	width:200px;
 	height:200px;
 	position: absolute;
-	right:0;
+	left:80px;
 	}
 .dec p{ 
 	   display:table-cell;
@@ -125,18 +166,31 @@ body{
 	#position:relative;
     #top:-50%;
 	}
+
 .buyInfo{
-	width:340px;
 	height:140px;
-	background:url(arrow.gif) no-repeat;
-	padding-top:40px;
-	padding-left:70px;
 	line-height:210%
 }
 .buyInfoPos{
-	position:absolute;
+	/*position:absolute;
 	left:600px;
-	top:36%;
+	top:28%;
+	background:url(arrow.gif) no-repeat  0px 57px;
+	padding-left:80px;*/
+	width:25%;
+	float:left;
+}
+#mrFlower{
+	text-align:center;
+	color:#333;
+	background:#efeeee;
+}
+#mrFlower b{
+	color:#999;
+	font-size:26px;
+}
+#mrFlower p{
+	font-size:14px;
 }
 /** 清除内外边距 **/
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
