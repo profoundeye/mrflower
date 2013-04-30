@@ -43,7 +43,7 @@
 					</ul>
 			
 			<div id="info">
-				<div id="mrFlower">
+				<div id="mrFlower"> 
 				<b>{我是花瓶先生}</b>
 				<p>花瓶先生是我<br />
 花瓶不该是空虚的，生活不该是孤单的。<br />
