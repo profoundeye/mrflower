@@ -18,24 +18,6 @@
 	
 	
 	<div class="mainFlower nowFlower">
-		<ul class="itemList">
-			<li>
-				<div class="mask"></div>
-				<img src="f/1.jpg" />
-				<div class="dec"><p><span><b>主花：</b>洋桔梗又名草原龙胆</span></p></div>
-			</li>
-			<li>
-				<div class="mask"></div>
-				<img src="f/2.jpg" />
-				<div class="dec"><p><span><b>主花：</b>洋桔梗又洋桔梗又名草原龙胆洋桔梗又名草原龙胆名草原龙胆</span></p></div>
-			</li>
-			<li>
-				<div class="mask"></div>
-				<img src="f/3.jpg" />
-				<div class="dec"><p><span><b>主花：</b>洋桔梗又名草原龙胆洋桔梗又名草原龙胆洋桔梗又名草原龙胆洋桔梗又名草原龙胆洋桔梗又名草原龙胆洋桔梗又名草原龙胆洋桔梗又名草原龙胆洋桔梗又名草原龙胆</span></p></div>
-
-			</li>
-		</ul>
 		<div class="buyInfoPos">
 					<ul id="collection">
 						<li class="select">点缀系列</li>
@@ -61,6 +43,27 @@
 				</p>				
 			</div>			
 		</div>
+		
+		
+		<ul class="itemList">
+			<li>
+				<div class="mask"></div>
+				<img src="f/1.jpg" />
+				<div class="dec"><p><span><b>主花：</b>洋桔梗又名草原龙胆</span></p></div>
+			</li>
+			<li>
+				<div class="mask"></div>
+				<img src="f/2.jpg" />
+				<div class="dec"><p><span><b>主花：</b>洋桔梗又洋桔梗又名草原龙胆洋桔梗又名草原龙胆名草原龙胆</span></p></div>
+			</li>
+			<li>
+				<div class="mask"></div>
+				<img src="f/3.jpg" />
+				<div class="dec"><p><span><b>主花：</b>洋桔梗又名草原龙胆洋桔梗又名草原龙胆洋桔梗又名草原龙胆洋桔梗又名草原龙胆洋桔梗又名草原龙胆洋桔梗又名草原龙胆洋桔梗又名草原龙胆洋桔梗又名草原龙胆</span></p></div>
+
+			</li>
+		</ul>
+
 			
 	</div>
 	
