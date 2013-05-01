@@ -1,3 +1,7 @@
+<?php
+	$collection = file_get_contents("collection.json");
+	$o = json_decode($collection,true);
+?>
 <!doctype html>
 <html>
 <head>
@@ -11,7 +15,7 @@
 <body>
 	<div id="nav">
 		<div class="logo">花瓶先生
-		<p class="link"><span class="select" rel="0">本周</span><span rel="1">过往</span></p>
+		<!--<p class="link"><span class="select" rel="0">本周</span><span rel="1">过往</span></p>-->
 		</ul>
 		</div>
 	</div>
@@ -20,8 +24,8 @@
 	<div class="mainFlower nowFlower">
 		<div class="buyInfoPos">
 					<ul id="collection">
-						<li class="select">点缀系列</li>
-						<li>钟爱系列</li>		
+						<li class="select" rel="0">点缀系列</li>
+						<li rel="1">钟爱系列</li>		
 					</ul>
 			
 			<div id="info">
@@ -44,27 +48,24 @@
 			</div>			
 		</div>
 		
-		
-		<ul class="itemList">
+		<?php
+			foreach($o as $k=>$_o){
+		?>
+		<ul class="itemList <?if($k!=0)echo "none"?>">
+			<?
+			foreach($_o as $i){	
+			?>
 			<li>
 				<div class="mask"></div>
-				<img src="f/1.jpg" />
-				<div class="dec"><p><span><b>主花：</b>洋桔梗又名草原龙胆</span></p></div>
+				<img src="<?echo $i['img']?>" />
+				<div class="dec"><p><span><b>主花：</b><?echo $i['info']?></span></p></div>
 			</li>
-			<li>
-				<div class="mask"></div>
-				<img src="f/2.jpg" />
-				<div class="dec"><p><span><b>主花：</b>洋桔梗又洋桔梗又名草原龙胆洋桔梗又名草原龙胆名草原龙胆</span></p></div>
-			</li>
-			<li>
-				<div class="mask"></div>
-				<img src="f/3.jpg" />
-				<div class="dec"><p><span><b>主花：</b>洋桔梗又名草原龙胆洋桔梗又名草原龙胆洋桔梗又名草原龙胆洋桔梗又名草原龙胆洋桔梗又名草原龙胆洋桔梗又名草原龙胆洋桔梗又名草原龙胆洋桔梗又名草原龙胆</span></p></div>
-
-			</li>
+			<?}?>
 		</ul>
-
-			
+		<?php
+				
+			}
+		?>			
 	</div>
 	
 	
@@ -113,8 +114,13 @@
 		</ul>
 	</div>-->
 	<script type="text/javascript">
-		$(".link span").click(function(el){
-			$(".mainFlower").toggle();
+		$("#collection li").click(function(el){
+			$("#collection li").removeClass("select")			
+			$(this).addClass("select");
+			rel = $(this).attr("rel");
+			obj = $(".itemList")[rel];
+			$(".itemList").addClass('none');
+			$(obj).removeClass('none');
 			})
 	</script>
 </body>
