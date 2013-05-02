@@ -37,7 +37,7 @@
 我是花瓶先生<br />
 				</p>				
 			</div>
-				<a href="#" class="order">立刻订购<span>，每月四次，仅需233元</span></a>
+				<a href="http://item.taobao.com/item.htm?id=23859568079" class="order">立刻订购<span>，每月四次，仅需233元</span></a>
 				<p class="buyInfo">
 					·花瓶先生目前只服务于杭州地区。<br />
 					·每周会有不同的当季鲜花送到您手中。<br />
