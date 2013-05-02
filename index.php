@@ -14,10 +14,9 @@
 </head>
 <body>
 	<div id="nav">
-		<div class="logo">花瓶先生
+		<a href="index.php"><div class="logo">花瓶先生
 		<!--<p class="link"><span class="select" rel="0">本周</span><span rel="1">过往</span></p>-->
-		</ul>
-		</div>
+		</div></a>
 	</div>
 	
 	
@@ -41,8 +40,9 @@
 				<a href="#" class="order">立刻订购<span>，每月四次，仅需233元</span></a>
 				<p class="buyInfo">
 					·花瓶先生目前只服务于杭州地区。<br />
-					·每周会有不同的当季鲜花。<br />
+					·每周会有不同的当季鲜花送到您手中。<br />
 					·您现在订购，会在下周一收到由右侧花材组成的花束。<br />
+					·<a href="QA.html">查看更多帮助信息</a><br />
 					
 				</p>				
 			</div>			
@@ -106,13 +106,14 @@
 	<div class="info">
 		<img class="wx" src="a/wx.gif" width="140px" height="140px" /><span class="wxh">微信号：花瓶先生</span>
 		<div class="logo">花瓶先生</div>
-		<span>提供每月定时鲜花送达服务，让生活充满灵动.</span>
+		<span>按月订购的鲜花送达服务</span>
+		<span>每周焕然一新的心情和鲜花</span>
 	</div>
-	<!--<div id="foot">
-		<ul>
-			<li>关于我们</li>
+	<div id="foot">
+		<span>浙ICP备12036457号-2</span>
+		<span><a href="http://shop34476295.taobao.com/">我们的淘宝店</a></span></li>
 		</ul>
-	</div>-->
+	</div>
 	<script type="text/javascript">
 		$("#collection li").click(function(el){
 			$("#collection li").removeClass("select")			
@@ -123,5 +124,18 @@
 			$(obj).removeClass('none');
 			})
 	</script>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40603475-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
 </html>

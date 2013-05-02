@@ -85,6 +85,8 @@ left: -170px;
 }
 .info span{
 	padding-left:50px;
+	display: block;
+overflow: hidden;
 }
 body{
 	background:#fafafa;
@@ -171,6 +173,22 @@ body{
 	height:140px;
 	line-height:210%
 }
+.buyInfo a{
+	color:#333333;
+	text-decoration: underline;
+}
+.help{
+	background:#efeeee;
+	padding:100px;
+	font-size:13px;
+	line-height:250%
+}
+.help h2{
+	font-size:15px;
+}
+.help p{
+	border-bottom:1px solid #ccc
+}
 .buyInfoPos{
 	/*position:absolute;
 	left:600px;
@@ -192,6 +210,12 @@ body{
 	font-size:14px;
 }
 .none{display:none}
+#foot{
+	text-align:center;
+	color:#333;
+}
+#foot span{padding:10px;}
+#foot a{color:#333}
 /** 清除内外边距 **/
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
 dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
