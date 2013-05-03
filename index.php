@@ -17,6 +17,7 @@
 		<a href="index.php"><div class="logo">花瓶先生
 		<!--<p class="link"><span class="select" rel="0">本周</span><span rel="1">过往</span></p>-->
 		</div></a>
+		<span class="for">按月订购的鲜花服务，每月四次送给热爱生活的你 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;为了极致新鲜，从花圃到您家最快仅用两天 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;花材的最初状态，拥有无限创意的可能</span>
 	</div>
 	
 	

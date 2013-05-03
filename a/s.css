@@ -1,5 +1,5 @@
 #nav{
-	height:97px;
+	height:145px;
 	width:100%;
 	background-image:url("bg.jpg");
 	overflow:hidden;
@@ -37,6 +37,12 @@
 	margin-bottom:50px;
 	overflow:hidden;
 	zoom:1;
+}
+.for{
+	text-align: center;
+	display: block;
+	margin-top:40px;
+	color:#666;
 }
 .nowFlower{
 	position: relative;	
