@@ -38,11 +38,11 @@
 我是花瓶先生<br />
 				</p>				
 			</div>
-				<a href="http://item.taobao.com/item.htm?id=23859568079" class="order">立刻订购<span>，每月四次，仅需233元</span></a>
+				<a href="http://item.taobao.com/item.htm?id=23859568079" class="order">立刻订购<span>，每月四次，仅需<b id="price">233</b>元</span></a>
 				<p class="buyInfo">
 					·花瓶先生目前只服务于杭州地区。<br />
 					·每周会有不同的当季鲜花送到您手中。<br />
-					·您现在订购，会在下周一收到由右侧花材组成的花束。<br />
+					·您现在订购，会在下周一收到由左侧花材组成的花束。<br />
 					·<a href="QA.html">查看更多帮助信息</a><br />
 					
 				</p>				
@@ -59,7 +59,21 @@
 			<li>
 				<div class="mask"></div>
 				<img src="<?echo $i['img']?>" />
-				<div class="dec"><p><span><b>主花：</b><?echo $i['info']?></span></p></div>
+				<div class="dec"><p><span>
+					<?
+					switch ($i['style']) {
+						case 'main':
+							echo "<b>主花：</b>";
+							break;
+						
+						case 'auxiliary':
+							echo "<b>辅花：</b>";
+							break;
+						default:
+							echo "<b>配叶：</b>";
+							break;
+					}
+					?><?echo $i['name'];?><?echo $i['info']?></span></p></div>
 			</li>
 			<?}?>
 		</ul>
@@ -117,12 +131,14 @@
 	</div>
 	<script type="text/javascript">
 		$("#collection li").click(function(el){
-			$("#collection li").removeClass("select")			
-			$(this).addClass("select");
-			rel = $(this).attr("rel");
-			obj = $(".itemList")[rel];
-			$(".itemList").addClass('none');
-			$(obj).removeClass('none');
+				$("#collection li").removeClass("select")			
+				$(this).addClass("select");
+				rel = $(this).attr("rel");
+				obj = $(".itemList")[rel];
+				$(".itemList").addClass('none');
+				$(obj).removeClass('none');
+				var price=rel==0?233:521;
+				$("#price").html(price);
 			})
 	</script>
 	<script type="text/javascript">
